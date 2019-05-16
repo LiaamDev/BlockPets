@@ -59,6 +59,7 @@ class PetsTopCommand extends BaseCommand {
 				if($pets === "") {
 					if($page === 1) {
 						if($entityName === null) {
+							$loader = $this->getLoader();
 							$sender->sendMessage(TextFormat::RED . $loader->translate("commands.errors.pets.none-on-server"));
 						} else {
 							$sender->sendMessage(TextFormat::RED . $loader->translate("commands.errors.pets.none-on-server-type", [$entityName]));
