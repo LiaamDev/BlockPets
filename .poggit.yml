@@ -14,6 +14,6 @@ projects:
         version: ^3.0
       - src: muqsit/InvMenu/InvMenu
         version: ^1.1.1
-      - src: SOFe/AwaitGenerator/Await
+      - src: SOF3/await-generator/Await
         version: ^2.2.0
 ...
