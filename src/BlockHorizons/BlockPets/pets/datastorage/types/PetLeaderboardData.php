@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace BlockHorizons\BlockPets\pets\datastorage\types;
 
-class PetsLeaderboardData {
+class PetLeaderboardData {
 
 	/** @var MinimalPetData[] */
 	private $pets = [];
