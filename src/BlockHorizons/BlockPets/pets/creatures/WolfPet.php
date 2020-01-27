@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace BlockHorizons\BlockPets\pets\creatures;
 
-use BlockHorizons\BlockPets\pets\creatures\utils\EntityColorMeta;
+use BlockHorizons\BlockPets\pets\creatures\utils\EntityColorMeta; //todo rename due to actor involvement.
 use BlockHorizons\BlockPets\pets\SmallCreature;
 use BlockHorizons\BlockPets\pets\WalkingPet;
 use pocketmine\nbt\tag\CompoundTag;
