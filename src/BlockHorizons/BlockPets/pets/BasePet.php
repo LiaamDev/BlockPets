@@ -26,7 +26,7 @@ use pocketmine\level\particle\HeartParticle;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\network\mcpe\protocol\AddActorPacket as AddEntityPacket;
 use pocketmine\network\mcpe\protocol\SetActorLinkPacket as SetEntityLinkPacket;
-use pocketmine\network\mcpe\protocol\types\ActorLink as EntityLink;
+use pocketmine\network\mcpe\protocol\types\EntityLink;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 use pocketmine\math\Vector3;
